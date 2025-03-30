@@ -48,7 +48,7 @@ const DropDownNav = () => {
   ];
   return (
     //TODO: fix the dark mode and change the main div's text and bg color
-    <div className="bg-white text-black">
+    <div className="bg-white text-black hidden sm:block">
       <ul className="flex flex-row gap-2 justify-center">
         {menu.map((item) => {
           return (
