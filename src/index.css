@@ -16,8 +16,9 @@
     padding: 0 10px 0 10px;
   }
 }
-@layer base {
+
+/* @layer base {
   html {
     color-scheme: light;
   }
-}
+} */

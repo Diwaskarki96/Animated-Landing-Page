@@ -2,6 +2,7 @@ import React from "react";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";
+import DropDownNav from "./DropDownNav";
 
 const Navbar = () => {
   return (
@@ -39,8 +40,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* lower nav */}
-      <div></div>
+
+      <DropDownNav />
     </nav>
   );
 };
